@@ -64,7 +64,8 @@ The script requires a JSON task file (`--task_file`) to define the login paramet
 
 ## Environment Variables
 
-```STATE_STORAGE_DIR="Storage directory where the session details are stored",
+```
+   STATE_STORAGE_DIR="Storage directory where the session details are stored",
    X_API_KEY="API key created from www.qaagent.ai website for validating the successful login using OCR AI model",
    OCR_AGENT_BASE_URL=https://www.qaagent.ai
 ```
