@@ -59,7 +59,8 @@ The script requires a JSON task file (`--task_file`) to define the login paramet
   "target_url": "https://example.com/dashboard",
   "expected_text_after_login": "Welcome, your_username!",
   "expected_text_timeout_ms": 10000
-}```
+}
+```
 
 ## Environment Variables
 
