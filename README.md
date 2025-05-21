@@ -1,4 +1,4 @@
-# Playwright Login Automation Client
+# Auth Session Storage Client
 
 This script provides a command-line interface to automate website login processes and validate active sessions. It leverages a backend module (`app.state_store_playwright`) that presumably uses Playwright to interact with web pages, store browser state (cookies, local storage), and reuse this state for subsequent session validations.
 
@@ -59,4 +59,13 @@ The script requires a JSON task file (`--task_file`) to define the login paramet
   "target_url": "https://example.com/dashboard",
   "expected_text_after_login": "Welcome, your_username!",
   "expected_text_timeout_ms": 10000
-}
+}```
+
+## Environment Variables
+
+```STATE_STORAGE_DIR="Storage directory where the session details are stored",
+   X_API_KEY="API key created from www.qaagent.ai website for validating the successful login using OCR AI model",
+   OCR_AGENT_BASE_URL=https://www.qaagent.ai
+```
+
+
